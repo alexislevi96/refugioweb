@@ -1,0 +1,24 @@
+.lamparas .lampara,
+.lamparas .lampara-1,
+.lamparas .lampara-2 {
+  margin-top: -38vh;
+}
+.lamparas {
+  position: relative;
+  height: 250px;
+}
+.lampara {
+  position: absolute;
+  top: 15%;
+  right: 38%;
+}
+.lamparas .lampara-1 {
+  position: absolute;
+  top: 15%;
+  right: 38%;
+}
+.lamparas .lampara-2 {
+  position: absolute;
+  top: 18%;
+  right: 32%;
+}

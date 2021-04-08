@@ -50,7 +50,7 @@ function Index() {
           <NucleoIcons />
           <CompleteExamples />
           <SignUp />
-          {/* <Examples /> */}
+          <Examples />
           <Download />
         </div>
         <DarkFooter />
