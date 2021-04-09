@@ -15,9 +15,13 @@
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
  */
+@font-face {
+  font-family: piola;
+  src: url("../../Retroica.ttf");
+}
 
-@import 'now-ui-kit/variables';
-@import 'now-ui-kit/mixins';
+@import "now-ui-kit/variables";
+@import "now-ui-kit/mixins";
 
 // Plugins CSS
 @import "now-ui-kit/plugins/plugin-bootstrap-switch";
@@ -47,6 +51,7 @@
 @import "now-ui-kit/modals";
 @import "now-ui-kit/carousel";
 @import "now-ui-kit/footers";
+@import "now-ui-kit/bienvenidacartel";
 
 // Cards
 @import "now-ui-kit/cards";
@@ -57,8 +62,7 @@
 @import "now-ui-kit/example-pages";
 @import "now-ui-kit/sections";
 
-
 @import "now-ui-kit/responsive";
 
 // React
-@import "react/react-differences"
+@import "react/react-differences";

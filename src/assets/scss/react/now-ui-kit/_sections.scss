@@ -1,5 +1,8 @@
 .clear-filter[filter-color="blue"] {
-  @include linear-gradient(rgba($black-color, 0.2), rgba(90, 202, 246, 0.6));
+  @include linear-gradient(
+    rgba(rgba(236, 236, 236, 0.938), 0.1),
+    rgba(49, 47, 47, 0.6)
+  );
 }
 [data-background-color="blue"] {
   background-color: $info-color;

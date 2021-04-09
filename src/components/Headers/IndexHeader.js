@@ -28,7 +28,7 @@ function IndexHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/bg7.jpg") + ")",
+            backgroundImage: "url(" + require("assets/img/bar3.jpg") + ")",
           }}
           ref={pageHeader}
         ></div>
@@ -43,9 +43,9 @@ function IndexHeader() {
             <h1 className="h1-seo">Bienvenidos</h1>
             <h3>Hacemos de tu diseño una realidad.</h3>
           </div>
-          <h6 className="category category-absolute">
+          {/* <h6 className="category category-absolute">
             Designed by REFUGIO corp.
-          </h6>
+          </h6> */}
         </Container>
       </div>
     </>

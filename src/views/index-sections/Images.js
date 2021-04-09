@@ -16,7 +16,7 @@ function Images() {
 
   return (
     <>
-      <div className=" section-images">
+      <div className="section section-images">
         <Container>
           <Row>
             <Col md="12">
