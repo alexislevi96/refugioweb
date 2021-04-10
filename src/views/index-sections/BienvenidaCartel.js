@@ -17,7 +17,7 @@ export default function BienvenidaCartel() {
               </Col>
               <Col lg="12" md="12" sm="12">
                 <div className="cont-bien-text">
-                  <h2>Diseño Minimalista</h2>
+                  <h4>DISEÑO MINIMALISTA</h4>
                   <p>El término minimalista, se refiere a todo aquello que se haya despojado de los excesos, dejando sólo lo esencial. El diseño minimalista, es una muestra de esto, imagina que es el diseño en su forma más básica. Se distingue por sus elementos ligeros, colores, formas y texturas. </p>
                 </div>
               </Col>

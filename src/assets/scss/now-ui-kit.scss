@@ -9,7 +9,7 @@
  * Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit-react/blob/master/LICENSE.md)
 
  * Designed by www.invisionapp.com Coded by www.creative-tim.com
-
+ 
  =========================================================
 
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
@@ -19,7 +19,14 @@
   font-family: piola;
   src: url("../../Retroica.ttf");
 }
-
+@font-face {
+  font-family: piola2;
+  src: url("../../helvetica-43.otf");
+}
+@font-face {
+  font-family: piola3;
+  src: url("../../Helvetica2.ttf");
+}
 @import "now-ui-kit/variables";
 @import "now-ui-kit/mixins";
 
@@ -52,6 +59,7 @@
 @import "now-ui-kit/carousel";
 @import "now-ui-kit/footers";
 @import "now-ui-kit/bienvenidacartel";
+@import "now-ui-kit/seccionesCategorias";
 
 // Cards
 @import "now-ui-kit/cards";
