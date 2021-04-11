@@ -12,12 +12,10 @@ function CompleteExamples() {
         <Container className="text-center">
           <Row className="justify-content-md-center">
             <Col lg="8" md="12">
-              <h2 className="title">Completed with examples</h2>
+              <h3 className="title">TU EXTRAORDINARIO HOGAR</h3>
               <h5 className="description">
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. More importantly, looking at them will give you a picture of
-                what you can built with this powerful Bootstrap 4 ui kit.
+              Vive una vida tan única como tú. Si tu vida no es un producto fabricado en serie, tu hogar tampoco tiene por qué serlo. Por eso te ofrecemos la posibilidad de cambiar el tamaño, los colores y los materiales en casi todos nuestros diseños. Estamos aquí para ayudarte a decorar tu casa a tu manera.
+Siempre personalizamos el proceso para adecuarlo a tus necesidades y deseos. Mira a continuación un ejemplo de la forma en que fluye el proceso.
               </h5>
             </Col>
           </Row>

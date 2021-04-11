@@ -8,6 +8,7 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 import Images from "./index-sections/Images.js";
 import BienvenidaCartel from "./index-sections/BienvenidaCartel.js";
 import SeccionesCategorias from "./index-sections/SeccionesCategorias.js";
+import Inspirate from "./index-sections/Inspirate.js";
 import Tabs from "./index-sections/Tabs.js";
 import Pagination from "./index-sections/Pagination.js";
 import Carousel from "./index-sections/Carousel.js";
@@ -44,13 +45,14 @@ function Index() {
           <BienvenidaCartel/> 
           <SeccionesCategorias/>
           <CompleteExamples />
+          <Inspirate/>
           <Tabs />
-          <Pagination />
           <Carousel />
           <NucleoIcons />
           <SignUp />
           <Examples />
           <Download />
+          {/* <Pagination /> */}
           {/* <BasicElements /> */}
           {/* <Navbars /> */}
           {/* <Notifications /> */}
