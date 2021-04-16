@@ -15,6 +15,19 @@ export default function SeccionesCategorias() {
                 <div className="cont-large-text">
                   <h1>CONOCE A NUESTROS DISEÑADORES</h1>
                   <p>Conoce a los talentosos diseñadores detrás de los muebles modernos de BoConcept y lee las historias de los icónicos diseños de butacas, sofás con estilo y sistemas de pared flexibles</p> 
+                  <a className="animated-arrow" href="/">
+                    <span className="the-arrow -left">
+                      <span className="shaft"></span>
+                    </span>
+                    <span className="main">
+                      <span className="text">
+                        Ver mas
+                      </span>
+                      <span className="the-arrow -right">
+                        <span className="shaft"></span>
+                      </span>
+                    </span>
+                  </a>
                 </div>
               </Col>
               <Col className="col-category">
@@ -23,6 +36,19 @@ export default function SeccionesCategorias() {
                 <div className="cont-large-text">
                   <h1>NUEVA COLECCIÓN</h1>
                   <p>Explora noticias interesantes sobre productos nuevos, actualizaciones de productos destacados y el lookbook con todas las tendencias para 2021</p> 
+                  <a className="animated-arrow" href="/">
+                    <span className="the-arrow -left">
+                      <span className="shaft"></span>
+                    </span>
+                    <span className="main">
+                      <span className="text">
+                        Ver mas
+                      </span>
+                      <span className="the-arrow -right">
+                        <span className="shaft"></span>
+                      </span>
+                    </span>
+                  </a>
                 </div>
               </Col>
               <Col className="col-category">
@@ -31,6 +57,19 @@ export default function SeccionesCategorias() {
                 <div className="cont-large-text">
                   <h1>AGREGANDO ESTILO EN SINGAPUR</h1>
                   <p>Elegante, individual, cálido y fácil. Estos fueron los cuatro deseos clave cuando Raquel e Hisamizu se propusieron diseñar su nuevo departamento vacío en Singapur.</p> 
+                  <a className="animated-arrow" href="/">
+                    <span className="the-arrow -left">
+                      <span className="shaft"></span>
+                    </span>
+                    <span className="main">
+                      <span className="text">
+                        Ver mas
+                      </span>
+                      <span className="the-arrow -right">
+                        <span className="shaft"></span>
+                      </span>
+                    </span>
+                  </a>
                 </div>
               </Col>
             </Row>

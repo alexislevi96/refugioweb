@@ -6,7 +6,7 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 
 // sections for this page
 import Images from "./index-sections/Images.js";
-import BienvenidaCartel from "./index-sections/BienvenidaCartel.js";
+import DiseñoMinimalista from "./index-sections/DiseñoMinimalista.js";
 import SeccionesCategorias from "./index-sections/SeccionesCategorias.js";
 import Inspirate from "./index-sections/Inspirate.js";
 import Carousel from "./index-sections/Carousel.js";
@@ -45,7 +45,7 @@ function Index() {
           <Images />
           <Inspirate/>
           <SeccionesCategorias/>
-          <BienvenidaCartel/> 
+          <DiseñoMinimalista/> 
           <CompleteExamples />
           <Carousel />
           <Portones />

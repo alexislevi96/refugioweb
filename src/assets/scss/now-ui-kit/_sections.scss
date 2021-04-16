@@ -64,6 +64,7 @@ $parallax-ios: true !default;
 }
 .section-signup {
   padding-top: 20vh;
+  margin-top: 50px;
 }
 
 .page-header {
@@ -355,7 +356,6 @@ $parallax-ios: true !default;
   }
 
   .hero-images-container-2 {
-    right: -1vw;
     @media (max-width: 450px) {
       top: -100px;
     }

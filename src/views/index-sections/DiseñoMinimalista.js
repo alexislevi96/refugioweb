@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Container, Row, Col } from "reactstrap";
 
-export default function BienvenidaCartel() {
+export default function DiseñoMinimalista() {
   return (
     <div className="cont-bien">
       <div className="cont-bien-back"/>
@@ -20,6 +20,19 @@ export default function BienvenidaCartel() {
                   <h4>DISEÑO MINIMALISTA</h4>
                   <p>El término minimalista, se refiere a todo aquello que se haya despojado de los excesos, dejando sólo lo esencial. El diseño minimalista, es una muestra de esto, imagina que es el diseño en su forma más básica. Se distingue por sus elementos ligeros, colores, formas y texturas. </p>
                 </div>
+                <a className="animated-arrow" href="/">
+                  <span className="the-arrow -left">
+                    <span className="shaft"></span>
+                  </span>
+                  <span className="main">
+                    <span className="text">
+                      Ver mas
+                    </span>
+                    <span className="the-arrow -right">
+                      <span className="shaft"></span>
+                    </span>
+                  </span>
+                </a>
               </Col>
             </Row>
           </Col>

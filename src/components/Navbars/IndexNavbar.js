@@ -54,13 +54,13 @@ function IndexNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              // href="/"
-              onClick={(e) => {
-                e.preventDefault();
-                document
-                  .querySelector(".page-header")
-                  .scrollIntoView();
-              }}
+              href="/"
+              // onClick={(e) => {
+              //   e.preventDefault();
+              //   document
+              //     .querySelector(".page-header")
+              //     .scrollIntoView();
+              // }}
               id="navbar-brand"
             >
               REFUGIO
