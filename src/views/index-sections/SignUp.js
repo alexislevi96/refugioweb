@@ -36,11 +36,11 @@ function SignUp() {
       >
         <Container>
           <Row>
-            <Card className="card-signup" data-background-color="blue">
+            <Card className="card-signup" data-background-color="contacto">
               <Form action="" className="form" method="">
                 <CardHeader className="text-center">
                   <CardTitle className="title-up" tag="h3">
-                    Sign Up
+                    Contactanos
                   </CardTitle>
                   <div className="social-line">
                     <Button
@@ -82,7 +82,7 @@ function SignUp() {
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
-                      placeholder="First Name..."
+                      placeholder="Nombre..."
                       type="text"
                       onFocus={() => setFirstFocus(true)}
                       onBlur={() => setFirstFocus(false)}
@@ -99,7 +99,7 @@ function SignUp() {
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
-                      placeholder="Last Name..."
+                      placeholder="Correo Electronico..."
                       type="text"
                       onFocus={() => setLastFocus(true)}
                       onBlur={() => setLastFocus(false)}
@@ -116,7 +116,7 @@ function SignUp() {
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
-                      placeholder="Email..."
+                      placeholder="Mensaje..."
                       type="text"
                       onFocus={() => setEmailFocus(true)}
                       onBlur={() => setEmailFocus(false)}
@@ -131,13 +131,13 @@ function SignUp() {
                     onClick={(e) => e.preventDefault()}
                     size="lg"
                   >
-                    Get Started
+                    Enviar
                   </Button>
                 </CardFooter>
               </Form>
             </Card>
           </Row>
-          <div className="col text-center">
+          {/* <div className="col text-center">
             <Button
               className="btn-round btn-white"
               color="default"
@@ -148,7 +148,7 @@ function SignUp() {
             >
               View Login Page
             </Button>
-          </div>
+          </div> */}
         </Container>
       </div>
     </>

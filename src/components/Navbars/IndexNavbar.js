@@ -54,7 +54,13 @@ function IndexNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              href="/"
+              // href="/"
+              onClick={(e) => {
+                e.preventDefault();
+                document
+                  .querySelector(".page-header")
+                  .scrollIntoView();
+              }}
               id="navbar-brand"
             >
               REFUGIO
@@ -147,8 +153,8 @@ function IndexNavbar() {
               </NavItem> */}
               <NavItem>
                 <NavLink
-                  href="https://www.facebook.com/CreativeTim?ref=creativetim"
-                  target="_blank"
+                  href=""
+                  // target="_blank"
                   id="facebook-tooltip"
                 >
                   <i className="fab fa-facebook-square"></i>
@@ -160,8 +166,8 @@ function IndexNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
-                  target="_blank"
+                  href=""
+                  // target="_blank"
                   id="instagram-tooltip"
                 >
                   <i className="fab fa-instagram"></i>

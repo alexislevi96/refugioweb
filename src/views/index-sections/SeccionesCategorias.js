@@ -11,7 +11,7 @@ export default function SeccionesCategorias() {
             <Row>
               <Col className="col-category">
                   <img className="cont-large-img cont-large-img-1" src={require("assets/img/espejo4.jpg")}/>
-                <div className="cont-large-img-etiqueta">MUEBLES</div>
+                <div className="cont-large-img-etiqueta ">MUEBLES</div>
                 <div className="cont-large-text">
                   <h1>CONOCE A NUESTROS DISEÑADORES</h1>
                   <p>Conoce a los talentosos diseñadores detrás de los muebles modernos de BoConcept y lee las historias de los icónicos diseños de butacas, sofás con estilo y sistemas de pared flexibles</p> 

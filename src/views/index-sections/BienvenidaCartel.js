@@ -8,12 +8,12 @@ export default function BienvenidaCartel() {
       <Container>
         <Row>
           <Col lg="6" md="6" sm="12">
-            <img className="cont-bien-img-1 " src={require("assets/img/mesa2.jpg")}/>
+            <img className="cont-bien-img-1 shadow" src={require("assets/img/lamparas7.jpg")}/>
           </Col>
           <Col lg="6" md="6" sm="12">
             <Row>
               <Col lg="12" md="12" sm="12">
-                <img className="cont-bien-img-2" src={require("assets/img/sillaLarge.jpg")}/>
+                <img className="cont-bien-img-2 shadow" src={require("assets/img/lamparas4.jpg")}/>
               </Col>
               <Col lg="12" md="12" sm="12">
                 <div className="cont-bien-text">

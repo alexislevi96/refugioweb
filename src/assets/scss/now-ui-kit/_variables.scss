@@ -52,8 +52,9 @@ $primary-color-alert: rgba(249, 99, 50, 0.8) !default;
 $success-color: #18ce0f !default;
 $success-states-color: lighten($success-color, 6%) !default;
 $success-color-opacity: rgba(24, 206, 15, 0.3) !default;
-$success-color-alert: rgba(24, 206, 15, 0.8) !default;
+$success-color-alert: rgba(255, 255, 255, 0.8) !default;
 
+$color-contacto: rgb(62, 98, 255);
 $color-nav: #000000 !default;
 $info-color: #2ca8ff !default;
 $info-states-color: lighten($info-color, 6%) !default;

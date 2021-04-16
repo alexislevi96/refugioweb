@@ -9,12 +9,13 @@ import Images from "./index-sections/Images.js";
 import BienvenidaCartel from "./index-sections/BienvenidaCartel.js";
 import SeccionesCategorias from "./index-sections/SeccionesCategorias.js";
 import Inspirate from "./index-sections/Inspirate.js";
+import Carousel from "./index-sections/Carousel.js";
+import CompleteExamples from "./index-sections/CompleteExamples.js";
+import Portones from "./index-sections/Portones.js";
+import SignUp from "./index-sections/SignUp.js";
 import Tabs from "./index-sections/Tabs.js";
 import Pagination from "./index-sections/Pagination.js";
-import Carousel from "./index-sections/Carousel.js";
 import NucleoIcons from "./index-sections/NucleoIcons.js";
-import CompleteExamples from "./index-sections/CompleteExamples.js";
-import SignUp from "./index-sections/SignUp.js";
 import Examples from "./index-sections/Examples.js";
 import Download from "./index-sections/Download.js";
 import BasicElements from "./index-sections/BasicElements.js";
@@ -42,16 +43,17 @@ function Index() {
         <IndexHeader />
         <div className="main">
           <Images />
-          <BienvenidaCartel/> 
-          <SeccionesCategorias/>
-          <CompleteExamples />
           <Inspirate/>
-          <Tabs />
+          <SeccionesCategorias/>
+          <BienvenidaCartel/> 
+          <CompleteExamples />
           <Carousel />
-          <NucleoIcons />
+          <Portones />
           <SignUp />
-          <Examples />
-          <Download />
+          {/* <NucleoIcons /> */}
+          {/* <Examples /> */}
+          {/* <Download /> */}
+          {/* <Tabs /> */}
           {/* <Pagination /> */}
           {/* <BasicElements /> */}
           {/* <Navbars /> */}
