@@ -88,29 +88,29 @@ function IndexNavbar() {
               <NavItem>
                 <NavLink
                   href="#pablo"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document
-                      .getElementById("carousel")
-                      .scrollIntoView();
-                  }}
+                  // onClick={(e) => {
+                  //   e.preventDefault();
+                  //   document
+                  //     .getElementById("carousel")
+                  //     .scrollIntoView();
+                  // }}
                 >
                   <i className="now-ui-icons design_image"></i>
-                  <p>Diseños</p>
+                  <p >Diseños</p>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
                   href="#pablo"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document
-                      .querySelector(".section-signup")
-                      .scrollIntoView();
-                  }}
+                  // onClick={(e) => {
+                  //   e.preventDefault();
+                  //   document
+                  //     .querySelector(".section-signup")
+                  //     .scrollIntoView();
+                  // }}
                 >
                   <i className="now-ui-icons ui-1_email-85"></i>
-                  <p>Contacto</p>
+                  <p >Contacto</p>
                 </NavLink>
               </NavItem>
               <UncontrolledDropdown nav>
@@ -125,13 +125,13 @@ function IndexNavbar() {
                   <p>categorias</p>
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem to="/index" tag={Link}>
+                  <DropdownItem to="/muebles" tag={Link}>
                     Muebles
                   </DropdownItem>
-                  <DropdownItem to="/index" tag={Link}>
+                  <DropdownItem to="/herreria" tag={Link}>
                     Herreria
                   </DropdownItem>
-                  <DropdownItem to="/index" tag={Link}>
+                  <DropdownItem to="/carteles" tag={Link}>
                     Carteles
                   </DropdownItem>
                 </DropdownMenu>

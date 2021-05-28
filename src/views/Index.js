@@ -11,7 +11,8 @@ import SeccionesCategorias from "./index-sections/SeccionesCategorias.js";
 import Inspirate from "./index-sections/Inspirate.js";
 import Carousel from "./index-sections/Carousel.js";
 import CompleteExamples from "./index-sections/CompleteExamples.js";
-import Portones from "./index-sections/Portones.js";
+import Espejo from "./index-sections/Espejo.js";
+import Footer from "../components/Footers/Footer.js";
 import SignUp from "./index-sections/SignUp.js";
 import Tabs from "./index-sections/Tabs.js";
 import Pagination from "./index-sections/Pagination.js";
@@ -48,8 +49,17 @@ function Index() {
           <DiseñoMinimalista/> 
           <CompleteExamples />
           <Carousel />
-          <Portones />
-          <SignUp />
+          <Espejo />
+        </div>
+        <Footer />
+      </div>
+    </>
+  );
+}
+
+export default Index;
+{/* <SignUp /> */}
+
           {/* <NucleoIcons /> */}
           {/* <Examples /> */}
           {/* <Download /> */}
@@ -60,11 +70,3 @@ function Index() {
           {/* <Notifications /> */}
           {/* <Typography /> */}
           {/* <Javascript /> */}
-        </div>
-        <DarkFooter />
-      </div>
-    </>
-  );
-}
-
-export default Index;

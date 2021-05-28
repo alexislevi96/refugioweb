@@ -10,7 +10,11 @@ export default function SeccionesCategorias() {
           <Col lg="8" md="12" sm="12">
             <Row>
               <Col className="col-category">
-                  <img className="cont-large-img cont-large-img-1" src={require("assets/img/espejo4.jpg")}/>
+                <div className="img-hover-zoom">
+                  <a href="">
+                    <img className="cont-large-img" src={require("assets/img/espejo4.jpg")}/>
+                  </a>
+                </div>
                 <div className="cont-large-img-etiqueta ">MUEBLES</div>
                 <div className="cont-large-text">
                   <h1>CONOCE A NUESTROS DISEÑADORES</h1>
@@ -31,7 +35,11 @@ export default function SeccionesCategorias() {
                 </div>
               </Col>
               <Col className="col-category">
-                <img className="cont-large-img cont-large-img-2" src={require("assets/img/lamparas6.jpg")}/>
+                <div className="img-hover-zoom">
+                  <a href="">
+                    <img className="cont-large-img" src={require("assets/img/lamparas6.jpg")}/>
+                  </a>
+                </div>
                 <div className="cont-large-img-etiqueta">HERRERIA</div>
                 <div className="cont-large-text">
                   <h1>NUEVA COLECCIÓN</h1>
@@ -52,7 +60,11 @@ export default function SeccionesCategorias() {
                 </div>
               </Col>
               <Col className="col-category">
-                <img className="cont-large-img cont-large-img-3" src={require("assets/img/cartel2.jpg")}/>
+                <div className="img-hover-zoom">
+                  <a href="">
+                    <img className="cont-large-img" src={require("assets/img/cartel2.jpg")}/>
+                  </a>
+                </div>
                 <div className="cont-large-img-etiqueta">CARTELES</div>
                 <div className="cont-large-text">
                   <h1>AGREGANDO ESTILO EN SINGAPUR</h1>
@@ -77,6 +89,7 @@ export default function SeccionesCategorias() {
           <Col lg="4" md="12" sm="12">
             <h1 className="cont-large-titulo">CATEGORIAS PARA TUS DISEÑOS</h1>
           </Col>
+          
         </Row> 
       </Container>
     </div>

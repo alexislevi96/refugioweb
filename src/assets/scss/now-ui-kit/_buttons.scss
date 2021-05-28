@@ -357,7 +357,7 @@ $arrow-head-thickness: $shaft-thickness;
   text-decoration: none;
   position: relative;
   transition: all 0.2s;
-  margin: 20px 0px;
+  margin: 18px 0px;
 
   &:hover {
     color: $gray;
@@ -415,6 +415,7 @@ $arrow-head-thickness: $shaft-thickness;
   }
 
   > .main {
+    scroll-behavior: smooth !important;
     display: flex;
     align-items: center;
     transition: all 0.2s;

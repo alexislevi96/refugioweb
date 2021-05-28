@@ -18,7 +18,9 @@ export default function Inspirate() {
             sm={{ span: 6, order: 2 }} 
             xs={{ span: 6, order: 2 }}
             >
-              <img className="cont-inspirate-img-1 " src={require("assets/img/bar1.jpg")}/>
+              <div className="img-hover-zoom" >
+                <img className="cont-inspirate-img-1 " src={require("assets/img/bar1.jpg")}/>
+              </div>
             </Col> 
             <Col 
             lg={{ span: 12, order: 2 }} 
@@ -49,7 +51,9 @@ export default function Inspirate() {
         <Col lg="5" md="5" sm="12" >
           <Row>
             <Col lg="12" md="12" sm="6" xs="6" style={divStyle}>
-              <img className="cont-inspirate-img-2" src={require("assets/img/lamparas3.jpg")}/>
+              <div className="img-hover-zoom" > 
+                <img className="cont-inspirate-img-2" src={require("assets/img/lamparas3.jpg")}/>
+              </div>
             </Col>
             <Col lg="12" md="12" sm="6" xs="6" >
               <div className="cont-inspirate-text" >

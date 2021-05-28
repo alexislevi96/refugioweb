@@ -14,7 +14,7 @@ import {
 
 const items = [
   {
-    src: require("assets/img/bar3.jpg"),
+    src: require("assets/img/mesa6.jpg"),
     altText: "Nature, United States",
     caption: "Nature, United States",
   },
