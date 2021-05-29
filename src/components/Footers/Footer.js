@@ -7,15 +7,15 @@ export default function Footer() {
       <div className="cont-footer-back"/>
       <div className="cont-footer-back-2"/>
       <div className="cont-footer-all">
-        <Row style={{marginRight: '0px'}} >
-          <Col lg="6" md="6" sm="6" xs="6" >
+        <Row style={{marginRight: '0px'}} className="row-footer" >
+          <Col lg="6" md="6" sm="6" xs="12" >
             <p className="cont-footer-contact">
               Email: info.refugiodesign@gmail.com <br />
               Direccion: Remedios de Escalada 144<br/>(Córdoba, Argentina) <br />
               Tel: 0351-4232972 / 0351-4239991
             </p>
           </Col>
-          <Col lg="6" md="6" sm="6" xs="6" >
+          <Col lg="6" md="6" sm="6" xs="12" >
             <p className="cont-footer-contact-2">
               Podes buscarnos tambien en: <br />
               <div className="cont-footer-contact-2-i">

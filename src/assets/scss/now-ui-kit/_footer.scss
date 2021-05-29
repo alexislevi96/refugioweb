@@ -78,7 +78,7 @@
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 576px) {
   .cont-footer {
     .cont-footer-back {
       height: 105%;
@@ -87,10 +87,14 @@
       height: 90%;
     }
     .cont-footer-contact {
-      font-size: 65%;
+      // font-size: 65%;
+      float: left;
+      margin-left: 33%;
     }
     .cont-footer-contact-2 {
-      font-size: 65%;
+      // font-size: 65%;
+      margin-top: 0px;
+      margin-left: 33%;
     }
     .cont-footer-contact-2-i {
       a {
@@ -99,6 +103,7 @@
     }
     .cont-footer-term {
       font-size: 70%;
+      margin-top: 30px;
     }
   }
 }
