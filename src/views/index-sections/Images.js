@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from "reactstrap";
 
+
 function Images() {
   const [offset, setOffset] = useState(0)
 
@@ -13,6 +14,7 @@ function Images() {
       window.removeEventListener("scroll", handleScroll)
     }
   }, [])
+  
 
   return (
     <>
